@@ -9,6 +9,7 @@ const counterAtom = atomWithObservable(() => subject, {
 
 function App() {
   const [counter, setCounter] = useAtom(counterAtom);
+
   return (
     <>
       <div>count: {counter}</div>
