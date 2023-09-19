@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App.tsx';
+import App from './app.tsx';
 import Modal from 'react-modal';
 import 'react-confirm-alert/src/react-confirm-alert.css';
 
